@@ -97,7 +97,7 @@ $ sudo apt install gnuradio
 
 ### Блокируем загрузку модулей ядра, которые нам будут только мешать
 ```bash
-sudo modprobe -r msi2500 msi001
+$ sudo modprobe -r msi2500 msi001
 ```
 Создаем файл `/etc/modprobe.d/blacklist-msi-rsp.conf` следующего содержания:
 ```
